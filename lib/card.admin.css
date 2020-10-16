@@ -1,0 +1,11 @@
+
+.card {
+   top: 20px;
+   border-radius: 6px;
+   color:#000;
+}
+
+.card .card-head {
+   background-image: linear-gradient(to right, #8360c3, #2ebf91, #8360c3);
+   text-transform: uppercase;
+}

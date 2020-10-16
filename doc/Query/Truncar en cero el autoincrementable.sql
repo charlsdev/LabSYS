@@ -1,0 +1,1 @@
+ALTER TABLE informacion_examen AUTO_INCREMENT = 0;
