@@ -66,12 +66,30 @@
 			}
 			/*include_once 'vistas/home.php';*/
 		}else{
-			echo '<script type="text/javascript">
-							alert("Datos insertados incorrectos");
-				  </script>';
+			// echo '<script type="text/javascript">
+         //          alert("Datos insertados incorrectos");
+         //       </script>';
+
+         $errorLogin = "User y/o password incorrecto";
+         include_once 'login.php';
+
+			// echo '<script type="text/javascript">
+         //          swal({
+         //             title: "Good job!",
+         //             text: "You clicked the button!",
+         //             icon: "success",
+         //             button: "Aww yiss!",
+         //          });
+         //       </script>';
+
+			echo "<script type='text/javascript'>
+                  Swal.fire(
+                     'DATOS INCORRECTOS',
+                     'User y/o password incorrectos!',
+                     'warning'
+                  )
+               </script>";
 			// echo "No existe el usuario";
-			$errorLogin = "User y/o password incorrecto";
-			include_once 'login.php';
 		}
 	}else{
 		//echo "login";
