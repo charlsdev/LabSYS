@@ -12,7 +12,8 @@
 		
 		<link href="../img/LabSys.ico" type="image/x-icon" rel="shortcut icon" />
 		<link href="../lib/login.css" rel="stylesheet" type="text/css" />
-		<link href="../plugins/poppins/css/Poppins_LT.css" rel="stylesheet" type="text/css" />
+      <link href="../plugins/poppins/css/Poppins_LT.css" rel="stylesheet" type="text/css" />
+      <link href="../plugins/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
 		<link href="../plugins/fontawesome/css/all.css" rel="stylesheet" type="text/css" />
 		
    </head>
@@ -66,9 +67,11 @@
 			</div>
 		</div>
 
-		
+		<script src="../lib/jquery.min.js"></script>
 		<script type="text/javascript" src="../lib/js/main.js"></script>
 		<script type="text/javascript" src="../plugins/validation.js"></script>
-		
+      <script src="../plugins/sweetalert2/sweetalert2.min.js"></script>
+      <!-- <script src="../plugins/sweetalert/sweetalert.min.js"></script> -->
+      
 	</body>
 </html>
